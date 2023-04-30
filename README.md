@@ -7,6 +7,12 @@ La tarea consiste en extraer datos de un endpoint de perros, seleccionar aleator
 
 Se ha creado un botón para permitir al usuario generar una nueva raza aleatoria cada vez que lo necesite.
 
+## Versión NODE
+
+18.0.0
+
+El proyecto se creo con vitejs / javascript vanilla y se adapto a react
+
 ## Endpoints
 ### Sitios para obtener los endpoints
 https://dog.ceo/dog-api/documentation/
@@ -16,6 +22,6 @@ https://dog.ceo/dog-api/documentation/
 |  https://dog.ceo/api/breeds/list/all |https://dog.ceo/api/breed/Affenpinscher/images/random  |
 |   |   |
 
-
+![imagen del proyecto](img/imgProyecto.png)
 
 
