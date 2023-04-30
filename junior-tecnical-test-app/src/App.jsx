@@ -31,11 +31,8 @@ const App = () => {
             key = `${dogBreeds.key[Math.floor(Math.random() * dogBreeds.key.length)]} ${key}`
         }
         setDogSelected(key.toUpperCase());
-        try {
-        fetch(`https://dog.ceo/api/breed/${key}/images/random`).then(res => res.json()).then(data => setImageUrl(data.message));
-        } catch (error) {
-            console.warn(error)
-        }
+        fetch(`https://dog.ceo/api/breed/${key}/images/random`).then(res => res.json()).then(data => setImageUrl(data.message)).catch(error => console.warn(error));
+      
     }, [dogBreeds, newSearch])
 
 
