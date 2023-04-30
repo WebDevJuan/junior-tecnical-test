@@ -1,17 +1,20 @@
-# junior-tecnical-test
- Endpoint fetching technical test
+# Prueba técnica para juniors
+Endpoint para obtener datos de una raza aleatoria de perros
 
+La siguiente es una prueba técnica para juniors y trainees de React en Live, basada en una adaptación de la clase de YouTube Midulive (https://www.youtube.com/watch?v=XYpadB4VadY).
 
-# Prueba técnica para Juniors y Trainees de React en Live
+La tarea consiste en extraer datos de un endpoint de perros, seleccionar aleatoriamente una raza de un objeto que contiene un listado de razas y, a continuación, obtener una imagen de la raza seleccionada llamando a otro endpoint.
 
-APIs:
+Se ha creado un botón para permitir al usuario generar una nueva raza aleatoria cada vez que lo necesite.
 
-- Facts Random: https://catfact.ninja/fact
-- Imagen random: https://cataas.com/cat/says/hello
+## Endpoints
+### Sitios para obtener los endpoints
+https://dog.ceo/dog-api/documentation/
 
-
-Recupera un hecho aleatorio de gatos de la primera API y muestra una imagen de un gato con la primera palabra del hecho recuperado usando
-la sengunda API.
+| endpoint 1  |  endpoint 2 |
+| ------------ | ------------ |
+|  https://dog.ceo/api/breeds/list/all |https://dog.ceo/api/breed/Affenpinscher/images/random  |
+|   |   |
 
 
 
