@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    border: 1px solid #563f1b;
+    padding: 10%;
+    background-color: #38726c;
+    margin: 0 auto;
+}
+
+button {
+    padding: 2px;
+    background-color: #f28123;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+img{
+    border: 3px solid #f7f052;
+}
